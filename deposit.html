@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>提现</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telphone=no, email=no"/>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/deposit.css">
+</head>
+<body>
+<div class="top-bar clearfix">
+    <div class="top-title">提现</div>
+    <div class="go-back"><img src="images/back.png">企业钱包</div>
+</div>
+<div class="content-box">
+    <div class="record-bar clearfix">
+        <div class="record-bar-left">
+            <img src="images/qb_cz_weixin.png">
+        </div>
+        <div class="record-bar-right clearfix">
+            提现到微信
+        </div>
+    </div>
+    <div class="input-box clearfix">
+        <label>金额(元):</label>
+        <input type="text" placeholder="当前余额为￥500元" id="getCount">
+    </div>
+    <div class="tips">提现的金额必须是整数; 每次提现最大金额为200.00</div>
+    <div class="btn" id="next">下一步</div>
+</div>
+<div class="dialog" id="dialog">
+    <div class="dialog-content">
+        <div class="dialog-title">提示</div>
+        <p class="dialog-text">是否将零钱提现到<span>"阳关女汉子"</span>的微信钱包</p>
+        <div class="dialog-btn clearfix">
+            <div class="btn-no" id="btnNo">取消</div>
+            <div class="btn-yes" id="btnYes">确定</div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/resize.js"></script>
+<script type="text/javascript" src="js/deposit.js"></script>
+</body>
+</html>

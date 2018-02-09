@@ -1,0 +1,112 @@
+.top-bar{
+    margin-bottom: 0;
+}
+.content-top{
+    padding:0.3rem 0;
+    text-align: center;
+    background-color: #00adef;
+    border-top: 0.01rem solid #fff;
+    position: relative;
+}
+.content-top-line{
+    position: absolute;
+    width: 1px;
+    background-color: #80d6f7;
+    height:0.75rem;
+    left: 0.3rem;
+    top:0;
+    bottom: 0;
+    right:0;
+    margin: auto;
+
+}
+.con{
+    width: 50%;
+    float: left;
+    color:#fff;
+}
+.title{
+    font-size: 0.13rem;
+
+}
+.number{
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+}
+.content-btn{
+    display: inline-block;
+}
+.content-btn div{
+    float: left;
+    font-size: 0.15rem;
+}
+.content-btn span{
+    font-size: 0.15rem;
+    padding-left: 0.2rem;
+    background: url("../images/pain-in.png") 0 0.04rem no-repeat;
+    background-size: 27%;
+}
+.content-btn .get span{
+    background-image: url("../images/get-out.png");
+}
+.content-btn .line{
+    width: 1px;
+    height:0.15rem;
+    background: #fff;
+    margin:0 0.15rem;
+}
+.right-bottom span{
+    font-size: 0.15rem;
+    padding-left: 0.2rem;
+    background: url("../images/currency.png") 0 0.04rem no-repeat;
+    background-size: 19%;
+}
+
+
+.content-bottom{
+    margin-top: 0.15rem;
+}
+.text-bar{
+    background-color: #fff;
+    font-size: 0.17rem;
+    color:#000;
+    height:0.44rem;
+    font-weight: 200;
+    padding:0 0.12rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.text-bar div{
+    display: inline-block;
+    line-height: 0.44rem;
+}
+.text-bar-left{
+    float: left;
+}
+.text-bar img{
+    width: 0.18rem;
+    height: 0.18rem;
+    display: inline;
+    margin-top: 0.12rem;
+}
+
+.text-bar-right{
+    float: right;
+}
+.text-bar-right img{
+    width: 0.1rem;
+    margin-left: 0.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

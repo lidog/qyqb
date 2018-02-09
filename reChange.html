@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>充值币交易记录</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telphone=no, email=no"/>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/reChange.css">
+</head>
+<body>
+<div class="top-bar clearfix">
+    <div class="top-title">充值</div>
+    <div class="go-back"><img src="images/back.png">企业钱包</div>
+</div>
+<div class="content-box">
+    <ul class="tad-top clearfix" id="tadTop">
+        <li class="on" type="coin">直聘币充值</li>
+        <li type="roll">直聘卷充值</li>
+    </ul>
+    <div class="company">
+        东莞市聚聘互联网科技有限公司
+    </div>
+    <div class="tips">余额:<span>0.00</span>直聘币</div>
+    <ul class="tad-content" id="tadContent">
+        <li class="item" type="coin">
+            <ul class="clearfix">
+                <li value="100">100 直聘币</li>
+                <li value="500">500 直聘币</li>
+                <li>
+                    <input id="other" type="text" placeholder="其他数额">
+                </li>
+            </ul>
+            <div class="cut"><span id="discount">0</span> 元 <i>(95折)</i></div>
+        </li>
+        <li class="item" type="roll">
+            <div class="input-box clearfix">
+                <label>直聘劵编码:</label>
+                <input type="text" placeholder="请输入" id="rollNumber">
+            </div>
+            <div class="input-box mb23 clearfix">
+                <label>直聘劵密码:</label>
+                <input type="text" placeholder="请输入" id="rollPassword">
+            </div>
+        </li>
+    </ul>
+    <div class="btn" id="pain" type="coin" value="" number="" password="">立即充值</div>
+    <div class="footer" style="line-height: 0.18rem;font-size: 0.12rem;color:#888;padding:0 0.15rem;text-align: left;width: auto;margin-bottom: 0.05rem;">
+        备注: 直聘币仅能兑换微直聘直接运营的产品和服务,不能兑换现金,不能进行转账交易,不能兑换微直聘体系外的产品和服务
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/resize.js"></script>
+<script type="text/javascript" src="js/reChange.js"></script>
+</body>
+</html>

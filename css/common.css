@@ -1,0 +1,336 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}
+fieldset,img {border:0 none}
+dl,ul,ol,menu,li {list-style:none}
+blockquote, q {quotes: none}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+input,select,textarea,button {vertical-align:middle;outline: none;border: none;}
+button {border:0 none;background-color:transparent;cursor:pointer}
+body {position: relative;background-color:#f0f0f0;background-position: left top;}
+body,th,td,input,select,textarea,button {font-size:12px;line-height:1.5em ;font-family:'微软雅黑'}
+a {color:#000;text-decoration:none}
+a:active, a:hover {text-decoration:none}
+address,caption,cite,code,dfn,em,var {font-weight:normal}
+caption {display:none;}
+table {width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;}    /* é‡ç½®tableå±žæ€§ */
+img{vertical-align:top;display: block;}
+a {outline: none;}
+a:active {star:expression(this.onFocus=this.blur());}
+.clear{clear: both;}
+.clearfix:before,.clearfix:after{content: '';display: table;}
+.clearfix:after{clear: both;}
+
+html {
+    font-size: 100px;
+    font-weight: 200;
+}
+body{
+    width: 3.75rem;
+    min-height: 6.67rem;
+    height:100%;
+    background-color: #efeff4;
+}
+
+/*顶部bar*/
+.top-bar{
+    text-align: center;
+    background-color: #00adef;
+    color:#fff;
+    height:0.44rem;
+    position: relative;
+    margin-bottom: 0.15rem;
+}
+.top-bar .top-title{
+    font-size: 0.18rem;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.top-bar .go-back{
+    float: left;
+    height:0.44rem;
+    line-height: 0.44rem;
+    font-size: 0.16rem;
+    margin-left: 0.1rem;
+
+}
+.top-bar .go-back img{
+    display: inline-block;
+    width: 0.1rem;
+    height: 0.2rem;
+    margin-top: 0.12rem;
+    margin-right: 0.05rem;
+}
+/*end顶部bar*/
+
+
+/*充值详情bar*/
+.record-bar{
+    padding:0 0.15rem;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+}
+.record-bar-left{
+    float: left;
+    height:0.75rem;
+    line-height: 0.75rem;
+}
+.record-bar-left img{
+    width: 0.36rem;
+    height: 0.36rem;
+    margin-right: 0.15rem;
+    margin-top: 0.2rem;
+}
+.record-bar-right{
+    line-height: 0.23rem;
+    height: 0.75rem;
+}
+.bar-content-left{
+    float: left;
+    text-align: left;
+}
+.bar-content-right{
+    float:right;
+    text-align: right;
+}
+.record-bar-right h3{
+    font-size: 0.17rem;
+    color:#000;
+    padding-top: 0.18rem;
+    font-weight: 200;
+}
+.record-bar-right h4{
+    font-size: 0.14rem;
+    color:#aaa;
+    font-weight: 200;
+}
+.record-bar-right .day,.record-bar-right .coin{
+    margin-right: 0.05rem;
+}
+/*end充值详情bar*/
+
+/*交易详情*/
+.detail-bar{
+    padding:0 0.15rem;
+    height:0.44rem;
+    line-height: 0.44rem;
+    font-size: 0.15rem;
+    color:#b2b2b2;
+    background-color: #fff;
+}
+.detail-bar .detail-title{
+    float: left;
+    text-align: left;
+}
+.detail-bar .detail-value{
+    float: right;
+    text-align: right;
+    color:#000;
+}
+.money-bar{
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 0.18rem;
+}
+.money-bar .detail-title{
+    color: #000;
+}
+.money-bar .detail-value{
+    color:#00adef;
+}
+.bt1{
+    border-bottom: 1px solid #e5e5e5;
+}
+/*end交易详情*/
+
+
+/*提现*/
+.input-box{
+    background-color: #fff;
+    padding:0 0.15rem;
+    font-size: 0.17rem;
+    height:0.44rem;
+    line-height: 0.44rem;
+}
+.input-box input{
+    font-size: 0.17rem;
+    padding-left: 0.28rem;
+    color: #000;
+}
+/*end提现*/
+
+/*提示信息*/
+.tips{
+    font-size: 0.14rem;
+    color: #888888;
+    text-align: center;
+    padding:0 0.15rem ;
+    margin: 0.23rem 0;
+}
+/*end提示信息*/
+
+/*下一步按钮*/
+.btn{
+    display: block;
+    width: 3.45rem;
+    height:0.44rem;
+    line-height: 0.44rem;
+    font-size: 0.18rem;
+    background-color: #d1d1d1;
+    color:#fff;
+    border-radius: 0.05rem;
+    text-align: center;
+    margin:0 auto;
+}
+.btn:active{
+    background-color: #b1b1b1;
+}
+.on{
+    background-color: #00adef;
+}
+.on:active{
+    background-color: #0294cb;
+}
+/*end下一步按钮*/
+
+/*提示框*/
+.dialog{
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.5);
+    top:0;
+    left: 0;
+    display: none;
+}
+.dialog-content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 2.8rem;
+    height:1.65rem;
+    background-color: #fff;
+    border-radius: 0.05rem;
+    z-index: 110;
+}
+.dialog-title{
+    text-align: center;
+    font-size: 0.18rem;
+    color: #000;
+    padding-top:0.13rem;
+    height:0.48rem;
+    line-height: 0.48rem;
+}
+.dialog-text{
+    padding:0 0.15rem;
+    font-size: 0.15rem;
+    height:0.35rem;
+    line-height: 0.2rem;
+    color:#999;
+    text-align: center;
+    margin-bottom: 0.18rem;
+}
+.dialog-text span{
+    color:#00adef;
+}
+.dialog-btn{
+    border-top: 1px solid #f6f1e8;
+}
+.dialog-btn div{
+    width: 50%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.18rem;
+    color:#000;
+    float: left;
+    text-align: center;
+}
+.dialog-btn .btn-yes{
+    position: relative;
+    color:#00adef;
+}
+.btn-yes:before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height:100%;
+    top:0;
+    left:0;
+    background-color: #f6f1e8;
+}
+/*end提示框*/
+
+/*成功提示*/
+.success-box img{
+    width: 1rem;
+    height: 1rem;
+    margin:0 auto;
+    margin-top: 0.4rem;
+    margin-bottom: 0.3rem;
+}
+.success-tips{
+    font-size: 0.2rem;
+    color:#000;
+    text-align: center;
+    height:0.3rem;
+    line-height: 0.3rem;
+}
+/*end成功提示*/
+
+/*公司名字*/
+.company{
+    padding:0 0.15rem;
+    height:0.44rem;
+    line-height: 0.44rem;
+    font-size: 0.17rem;
+    color:#000;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+/*end公司名字*/
+
+
+/*通用布局样式*/
+.mb15{
+    margin-bottom: 0.15rem;
+}
+.mb30{
+    margin-bottom: 0.3rem;
+}
+.borderE5{
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+}
+.ml005{
+    margin-left: 0.05rem;
+}
+/*end通用布局样式*/
+
+/*页脚*/
+.footer{
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.6rem;
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+.footer a{
+    color:#00adef;
+}
+/*页脚*/
+
+
+
+
+
+
+
+
+
+
+

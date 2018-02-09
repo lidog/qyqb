@@ -1,0 +1,95 @@
+.tad-top li{
+    width: 50%;
+    height:0.4rem;
+    line-height: 0.4rem;
+    background-color: #fff;
+    border-bottom:0.04rem solid transparent;
+    float: left;
+    font-size: 0.17rem;
+    text-align: center;
+    margin-bottom: 0.15rem;
+}
+.tad-top .on{
+    color: #00adef;
+    border-bottom-color: #00adef;
+}
+.tips{
+    margin:0.08rem 0;
+    text-align: left;
+}
+.item li{
+    float: left;
+    width: 1.08rem;
+    height:0.44rem;
+    line-height: 0.44rem;
+    text-align: center;
+    margin:0.05rem 0;
+    margin-right: 0.1rem;
+    font-size: 0.17rem;
+    border-radius: 0.05rem;
+    background-color: #fff;
+    border:1px solid #e5e5e5;
+}
+.item{
+    display: none;
+}
+.item:first-child{
+    display: block;
+}
+.item li:first-child{
+    margin-left: 0.15rem;
+}
+.item li input{
+    width: 1.08rem;
+    height:0.44rem;
+    font-size: 0.17rem;
+    color:#000;
+    text-align: center;
+    border-radius: 0.05rem;
+    margin-top: -1px;
+}
+.item .on{
+    background-color: #00adef;
+    color:#fff;
+}
+.item .on:last-child{
+    background-color: #fff;
+}
+.item .on input{
+    border: 1px solid #00adef;
+    color:#00adef;
+}
+.cut{
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.17rem;
+    padding-left: 0.15rem;
+    margin-bottom: 0.07rem;
+}
+.cut span{
+    font-size: 0.25rem;
+    color:#ff7700;
+}
+.cut i{
+    font-size: 0.13rem;
+    font-style: normal;
+}
+.input-box{
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 0.15rem;
+}
+.mb23{
+    margin-bottom: 0.23rem;
+}
+
+
+
+
+
+
+
+
+
+
+
